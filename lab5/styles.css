@@ -1,0 +1,51 @@
+.login-header {
+    width: 50%;
+    margin-left: 25%;
+    background: lightgray;
+    text-align: center;
+    font-size: 24px;
+    font-family: Calibri;
+    border-radius: 10px;
+}
+
+.container p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -2em;
+}
+
+.chat-container {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.chat-container .message_form__button {
+    margin-top: 1em;
+    margin-left: auto;
+}
+
+.chat-bubble {
+    margin-top: 2.5em;
+    width: 15%;
+    border: 1px solid lightgray;
+    background: lightgray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+.my-chat-bubble {
+    margin-top: 2.5em;
+    margin-left: auto;
+    width: 15%;
+    border: 1px solid lightskyblue;
+    background: lightskyblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Calibri;
+    float: end;
+}
