@@ -1,0 +1,26 @@
+extends ../layout.pug
+
+block prepend styles
+  link(rel='stylesheet' href='//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css')
+
+block content
+  div(class='breadcrumb')
+    li= title
+  form(id='station-add-form' name='station-add-form' class='form-inline' action='')
+    div(class='form-group')
+      div(class='col-md-3')
+        label(for='name') Load capacity
+      div(class='col-md-9')
+        input(id='name' name='load capacity' value='' class='form-control')
+        input(type='hidden' name='availability' value='true' class='form-control')
+    div(class='form-group')
+      div(class='col-md-12')
+        button(type='submit' class='btn btn-primary') Create
+    button(type='submit' id='station-delete' class='btn btn-danger float-right') Delete
+    div.list-wrapper
+      table(id='station-list')
+block append scripts
+  script(src='/static/js/models/station.js')
+  script(src='//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js')
+  script(src='/static/js/views/stations.js')
+      
