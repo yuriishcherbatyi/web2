@@ -1,0 +1,16 @@
+h1{
+    background-color:rgb(240, 159, 232);
+    color:rgb(0, 0, 0);
+    padding:20px;
+    text-align: center;
+}
+.myform input{
+    margin:5px;
+}
+table{
+    margin:5px;
+}
+
+.hidden {
+    display: none;
+}
