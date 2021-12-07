@@ -1,0 +1,9 @@
+.header-phone{
+    flex:1;
+    font-size: 16px;
+   }
+   @media(max-width:640px){
+    .header-phone{
+    display:none;
+    }
+   }
